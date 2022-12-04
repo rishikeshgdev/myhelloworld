@@ -1,0 +1,29 @@
+{
+    "name": "rishikesh/myhelloworld",
+    "description": "Logging for PHP 8.0",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/rishikesh/",
+    "license": "MIT",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Rishikesh kumar",
+            "email": "mystyle73019@gmail.com",
+            "homepage": "http://abc.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.*"
+      
+    },
+    "autoload": {
+		"files": [
+		  "registration.php"
+		],
+		"psr-4": {
+		  "RKG\\Helloworld\\": ""
+		}
+	}
+}
